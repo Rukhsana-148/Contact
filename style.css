@@ -1,0 +1,35 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    color : darkblue;
+}
+.container{
+    max-width : 1368px;
+    background : url('bg.jpg') no-repeat center/cover;
+    height : 100vh;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+   
+    text-align: center;
+}
+textarea{
+    margin-bottom: 10px;
+}
+h4 , p{
+    text-align: center;
+}
+form{
+    margin-top : 100px;
+    padding: 50px 50px;
+    background-color: ivory;
+}
+.btn{
+    background-color: rgb(15, 15, 99);
+    color : white;
+}
+input{
+    margin-bottom : 10px;
+}
